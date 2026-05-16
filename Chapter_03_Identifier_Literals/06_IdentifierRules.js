@@ -4,7 +4,7 @@ var _ab = 10;       // starts with _
 var aB123 = 20;     // starts with a letter, contains digits
 var ABC = 20;       // uppercase letters are allowed
 var myVar = "ok";  // camel case identifier
-
+ 
 // Invalid JavaScript identifiers (commented out because they would cause syntax errors):
 // var 123a = 10;    // cannot start with a digit
 // var var-name = 15; // hyphens are not allowed
