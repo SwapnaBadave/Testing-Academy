@@ -28,5 +28,7 @@
    
 
 function buildJsBasicsRunLabel(suiteName, environment, buildNumber) {
-  
+    suiteName = suiteName.trim(); // Remove leading/trailing whitespace from suiteName
+    environment = environment.trim().toLowerCase(); // Remove leading/trailing whitespace and convert environment to lowercase
+    return `${suiteName} | ${environment} | build-${buildNumber}`; // Construct and return the formatted label  
 }

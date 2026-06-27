@@ -14,3 +14,7 @@ for (const test of tests) {
 tests.forEach((test, index) => { // it will give the index and the element of the array
     console.log(test, index);
 });
+
+// in operator
+console.log(0 in tests); // it will check if the index 0 is present in the array or not
+console.log(3 in tests); // it will check if the index 3 is present in the array or not 
