@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "rootDir": ".",
+    "types": ["@playwright/test", "node"]
+  },
+  "include": ["tests/**/*.ts"]
+}

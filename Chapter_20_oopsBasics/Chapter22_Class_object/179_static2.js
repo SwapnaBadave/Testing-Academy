@@ -3,4 +3,7 @@ class person{
     constructor(name){
         this.name=name;
     }
+    static commanFun(){
+        
+    }
 }
