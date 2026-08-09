@@ -51,6 +51,8 @@ This repository is structured as a study guide for JavaScript and TypeScript fun
 ### Automation and Advanced Topics
 - `Chapter_19_Playwright/`
   - Playwright setup, browser automation, and end-to-end testing examples.
+- `chapter_33_Playwrightfundmental/`
+  - Playwright fundamentals, configuration, and practical browser automation exercises.
 - `Chapter_20_oopsBasics/`
   - Object-oriented programming concepts such as classes, encapsulation, inheritance, and modules.
 - `Chapter_27_Typescript/`
